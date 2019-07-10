@@ -1,2 +1,2 @@
 # Juliet
-VSCode, React, nodejs, AWS, React Native, OAuth2, MongoDB
+VSCode, React, nodejs, AWS, OAuth2, MongoDB
