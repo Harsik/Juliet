@@ -14,6 +14,7 @@ import {
   View,
   Text,
   StatusBar,
+  Image
 } from 'react-native';
 
 import {
@@ -67,6 +68,10 @@ const App = () => {
     </Fragment>
   );
 };
+
+const MOCKED_MOVIES_DATA = [
+  {title: 'Title', year: '2015', posters: {thumbnail: 'http://i.imgur.com/UePbdph.jpg'}},
+];
 
 const styles = StyleSheet.create({
   scrollView: {
