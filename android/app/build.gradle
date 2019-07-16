@@ -188,8 +188,10 @@ android {
 }
 
 dependencies {
+    implementation project(':react-native-vector-icons')
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "com.facebook.react:react-native:+"  // From node_modules
+    // implementation project(':react-native-gesture-handler')
 
     if (enableHermes) {
       def hermesPath = "../../node_modules/hermesvm/android/";
